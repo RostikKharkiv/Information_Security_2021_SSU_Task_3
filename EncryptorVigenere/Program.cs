@@ -9,7 +9,7 @@ namespace EncryptorVigenere
         static void Main(string[] args)
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            string directoryName = @"C:\TEST\Директория была создана кстати";
+            string directoryName = @"C:\TEST";
             string key = "князь";
 
             //Encryptor.EncryptorVigenere(directoryName, key);
